@@ -1,7 +1,7 @@
 
 
 
-## 0.2 
+## 0.2 :: 2015-02-20
 - add support python 3
 - fix locale setting error
 - add setup tool
