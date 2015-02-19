@@ -1,0 +1,15 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Mehr Calendar
+GenericName=Mehr Calendar
+GenericName[fa]=تقویم مهر
+Comment=Persian/jalali calendar
+Comment[fa]=تقویم خورشیدی/جلالی پارسی
+Icon=mehrcal
+Exec=/usr/share/mehrcal/mehrcal
+NoDisplay=false
+Categories=Office;Calendar;GTK;
+StartupNotify=false
+Terminal=false
+MimeType=text/calendar;

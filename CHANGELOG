@@ -1,0 +1,7 @@
+
+
+
+## 0.2 
+- add support python 3
+- fix locale setting error
+- add setup tool
