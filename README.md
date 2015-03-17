@@ -1,5 +1,4 @@
-# MehrCal
-تقویم "مهر"
+# MehrCal تقویم مهر
 
 *ver0.3 dev*
 
