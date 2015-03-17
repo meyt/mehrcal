@@ -1,0 +1,10 @@
+[Core]
+Name = Calendar events
+Module = events
+
+[Documentation]
+Author = Mahdi Ghane.g
+Version = 1.0
+Website = http://meyt.github.com
+Description = Set event's on calendar
+
