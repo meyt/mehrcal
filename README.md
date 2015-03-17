@@ -1,9 +1,11 @@
-# MehrCal تقویم `مهر`
+# MehrCal
+تقویم "مهر"
 
 *ver0.3 dev*
 
 a simple persian calendar application for linux 
-یک تقویم ساده پارسی برای لینوکس
+
+یک تقویم ساده پارسی برای گنو/لینوکس
 
 ![MehrCal screenshot](https://raw.githubusercontent.com/meyt/mehrcal/master/mehrcal-screenshot.png)
 
