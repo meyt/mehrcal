@@ -1,7 +1,14 @@
-
-
-
-## 0.2 :: 2015-02-20
+## 0.2.0 :: 2015-02-20
 - add support python 3
 - fix locale setting error
 - add setup tool
+
+
+# 0.3.1 :: 2015-03-17
+- fix configparser importing
+- fix row growing by month
+- fix date picker
+- add weekday positions
+- fix color and styling problem
+- change settings layout
+- update install script [setup.py]

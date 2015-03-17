@@ -1,7 +1,7 @@
 from distutils.core import setup
 import re, os
 
-to_path = "share"
+to_path = "/opt"
 from_path = 'mehrcal'
 
 def get_files():
@@ -15,9 +15,9 @@ def get_files():
     return datafiles
 
 data_files = get_files()
-data_files.append( ('share/icons/hicolor/scalable/apps', ['mehrcal/data/mehrcal.svg']) )
-data_files.append( ('share/applications', ['mehrcal/data/mehrcal.desktop']) )
-data_files.append( ('bin', ['mehrcal/data/mehrcal']) )
+data_files.append( ('/usr/share/icons/hicolor/scalable/apps', ['mehrcal/data/mehrcal.svg']) )
+data_files.append( ('/usr/share/applications', ['mehrcal/data/mehrcal.desktop']) )
+data_files.append( ('/usr/bin', ['mehrcal/mehrcal']) )
 
 
 setup(

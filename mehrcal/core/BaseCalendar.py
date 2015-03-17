@@ -89,7 +89,7 @@ def add_months(date, months):
 
 
 class MyCalendar():
-    rtl = general.RTL
+
     def get_first_day_month(self):
         first_day_of_month = self.date+datetime.timedelta(days=1-self.date.day)
         first_day_of_month = first_day_of_month.weekday()
@@ -98,7 +98,7 @@ class MyCalendar():
         return first_day_of_month
 
     
-    def gen_grid_mat(self):
+    def gen_grid_mat(self, RTL=False):
         # decide if it is going to be 6 rows or 5
         if self.get_first_day_month() + self.get_days_in_month() > 35:
             rows = 6
@@ -115,7 +115,7 @@ class MyCalendar():
         # print(delta)
         for j in xrange(rows):
             for i in xrange(7):
-                if self.rtl:
+                if RTL:
                     delta_time = datetime.timedelta(days=6-i+j*7+delta)
                 else:
                     delta_time = datetime.timedelta(days=i+j*7+delta)

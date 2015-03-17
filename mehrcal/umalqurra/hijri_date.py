@@ -62,7 +62,6 @@ class HijriDate:
         self.month_name = self.month_dict[self.month]
         date_gr = date(year,month,day)
         self.day_name_en = date_gr.strftime("%u")
-        print self.day_name_en, date_gr.strftime("%a")
         self.day_name = self.day_dict[self.day_name_en]
         self.month_name_gr = date_gr.strftime("%B")
     #Set dates if date send by user is Hijri

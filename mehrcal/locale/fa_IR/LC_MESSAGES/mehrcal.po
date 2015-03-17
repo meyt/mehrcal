@@ -1,241 +1,52 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2015-02-17 23:11+0330\n"
-"PO-Revision-Date: 2015-02-17 23:14+0330\n"
+"POT-Creation-Date: 2015-03-17 03:25+0330\n"
+"PO-Revision-Date: 2015-03-17 03:29+0330\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.7.3\n"
+"X-Generator: Poedit 1.5.4\n"
 "X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
-"X-Poedit-Basepath: /home/dobby/Documents/mehrcal-master\n"
-"X-Poedit-SearchPath-0: /home/dobby/Documents/mehrcal-master\n"
+"X-Poedit-Basepath: /home/magicus/Documents/mehrcal-master/mehrcal/\n"
+"X-Poedit-SearchPath-0: /home/magicus/Documents/mehrcal-master/mehrcal\n"
 
-#: /home/dobby/Documents/mehrcal-master/data/about.ui:7
-#: /home/dobby/Documents/mehrcal-master/data/settings.ui:232
-#: /home/dobby/Documents/mehrcal-master/core/window.py:46
+#: /home/magicus/Documents/mehrcal-master/mehrcal/core/window.py:36
+msgid "View details"
+msgstr "نمایش جزئیات"
+
+#: /home/magicus/Documents/mehrcal-master/mehrcal/core/window.py:39
+msgid "Zoom in"
+msgstr "بزرگنمایی"
+
+#: /home/magicus/Documents/mehrcal-master/mehrcal/core/window.py:42
+msgid "Zoom out"
+msgstr "دورنمایی"
+
+#: /home/magicus/Documents/mehrcal-master/mehrcal/core/window.py:45
+#: /home/magicus/Documents/mehrcal-master/mehrcal/core/settings.py:23
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: /home/magicus/Documents/mehrcal-master/mehrcal/core/window.py:48
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/settings.ui:358
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/about.ui:7
 msgid "About"
 msgstr "درباره"
 
-#: /home/dobby/Documents/mehrcal-master/data/about.ui:12
-msgid "a simple persian calendar"
-msgstr "یک تقویم ساده پارسی "
-
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:21
-msgid "ش"
-msgstr ""
-
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:33
-msgid "۱ش"
-msgstr ""
-
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:45
-msgid "2ش"
-msgstr ""
-
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:57
-msgid "3ش"
-msgstr ""
-
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:69
-msgid "4ش"
-msgstr ""
-
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:81
-msgid "5ش"
-msgstr ""
-
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:93
-msgid "آ"
-msgstr ""
-
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:143
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:161
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:228
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:246
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:313
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:331
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:398
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:416
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:483
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:501
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:568
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:586
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:653
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:671
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:738
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:756
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:823
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:841
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:908
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:926
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:993
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:1011
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:1078
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:1096
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:1163
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:1181
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:1248
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:1266
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:1333
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:1351
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:1418
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:1436
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:1503
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:1521
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:1588
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:1606
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:1673
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:1691
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:1758
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:1776
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:1843
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:1861
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:1928
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:1946
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:2013
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:2031
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:2098
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:2116
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:2183
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:2201
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:2268
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:2286
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:2353
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:2371
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:2438
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:2456
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:2523
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:2541
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:2608
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:2626
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:2693
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:2711
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:2778
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:2796
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:2863
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:2881
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:2948
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:2966
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:3033
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:3051
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:3118
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:3136
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:3203
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:3221
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:3288
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:3306
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:3373
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:3391
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:3458
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:3476
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:3543
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:3561
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:3628
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:3646
-msgid "10"
-msgstr ""
-
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:186
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:271
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:356
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:441
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:526
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:611
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:696
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:781
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:866
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:951
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:1036
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:1121
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:1206
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:1291
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:1376
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:1461
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:1546
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:1631
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:1716
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:1801
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:1886
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:1971
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:2056
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:2141
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:2226
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:2311
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:2396
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:2481
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:2566
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:2651
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:2736
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:2821
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:2906
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:2991
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:3076
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:3161
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:3246
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:3331
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:3416
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:3501
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:3586
-#: /home/dobby/Documents/mehrcal-master/data/calendar-widget.ui:3671
-msgid "20"
-msgstr ""
-
-#: /home/dobby/Documents/mehrcal-master/data/settings.ui:12
-msgid "www"
-msgstr ""
-
-#: /home/dobby/Documents/mehrcal-master/data/settings.ui:62
-msgid "Language:"
-msgstr "زبان:"
-
-#: /home/dobby/Documents/mehrcal-master/data/settings.ui:123
-msgid "General"
-msgstr "عمومی"
-
-#: /home/dobby/Documents/mehrcal-master/data/settings.ui:150
-msgid "Name"
-msgstr "نام"
-
-#: /home/dobby/Documents/mehrcal-master/data/settings.ui:164
-msgid "Description"
-msgstr "توضیحات"
-
-#: /home/dobby/Documents/mehrcal-master/data/settings.ui:176
-msgid "   "
-msgstr ""
-
-#: /home/dobby/Documents/mehrcal-master/data/settings.ui:204
-msgid "Configure"
-msgstr "پیکربندی"
-
-#: /home/dobby/Documents/mehrcal-master/data/settings.ui:260
-msgid "Plugins"
-msgstr "پلاگین ها"
-
-#: /home/dobby/Documents/mehrcal-master/core/app.py:35
+#: /home/magicus/Documents/mehrcal-master/mehrcal/core/app.py:52
 #, python-format
 msgid "Reading configuration file: %s"
 msgstr "خواندن پیکربندی از: %s"
 
-#: /home/dobby/Documents/mehrcal-master/core/app.py:52
-#, python-format
-msgid "Writing configuration file: %s"
-msgstr "نوشتن پیکربندی در %s"
-
-#: /home/dobby/Documents/mehrcal-master/core/app.py:183
+#: /home/magicus/Documents/mehrcal-master/mehrcal/core/app.py:252
 msgid "MehrCalendar"
 msgstr "تقویم مهر"
 
-#: /home/dobby/Documents/mehrcal-master/core/settings.py:24
-#: /home/dobby/Documents/mehrcal-master/core/window.py:43
-msgid "Settings"
-msgstr "تنظیمات"
-
-#: /home/dobby/Documents/mehrcal-master/core/settings.py:58
+#: /home/magicus/Documents/mehrcal-master/mehrcal/core/settings.py:63
 #, python-format
 msgid ""
 "%s %s \n"
@@ -248,19 +59,509 @@ msgstr ""
 " %s \n"
 " %s"
 
-#: /home/dobby/Documents/mehrcal-master/core/settings.py:65
+#: /home/magicus/Documents/mehrcal-master/mehrcal/core/settings.py:70
 #, python-format
 msgid "about plugin %s"
 msgstr "درباره پلاگین %s"
 
-#: /home/dobby/Documents/mehrcal-master/core/window.py:37
-msgid "Zoom in"
-msgstr "بزرگنمایی"
-
-#: /home/dobby/Documents/mehrcal-master/core/window.py:40
-msgid "Zoom out"
-msgstr "دورنمایی"
-
-#: /home/dobby/Documents/mehrcal-master/plugins/indicator/indicator.py:27
+#: /home/magicus/Documents/mehrcal-master/mehrcal/plugins/systray/systray.py:20
 msgid "Quit"
 msgstr "خروج"
+
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/settings.ui:12
+msgid "www"
+msgstr ""
+
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/settings.ui:77
+msgid "Left"
+msgstr "چپ"
+
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/settings.ui:92
+msgid "Top"
+msgstr "بالا"
+
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/settings.ui:107
+msgid "Right"
+msgstr "راست"
+
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/settings.ui:122
+msgid "Right to left"
+msgstr "راست به چپ"
+
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/settings.ui:137
+msgid "Left to right"
+msgstr "چپ به راست"
+
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/settings.ui:175
+msgid "Layout: "
+msgstr "چینش:"
+
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/settings.ui:186
+msgid "Holiday's color:"
+msgstr "رنگ روزهای تعطیل:"
+
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/settings.ui:249
+msgid "General"
+msgstr "عمومی"
+
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/settings.ui:276
+msgid "Name"
+msgstr "نام"
+
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/settings.ui:290
+msgid "Description"
+msgstr "توضیحات"
+
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/settings.ui:302
+msgid "   "
+msgstr ""
+
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/settings.ui:330
+msgid "Configure"
+msgstr "پیکربندی"
+
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/settings.ui:386
+msgid "Plugins"
+msgstr "پلاگین ها"
+
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/about.ui:12
+msgid "a simple persian calendar"
+msgstr "یک تقویم ساده پارسی"
+
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:21
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:3563
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:21
+msgid "ش"
+msgstr ""
+
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:33
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:3575
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:33
+msgid "۱ش"
+msgstr ""
+
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:45
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:3587
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:45
+msgid "2ش"
+msgstr ""
+
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:57
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:3599
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:57
+msgid "3ش"
+msgstr ""
+
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:69
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:3611
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:69
+msgid "4ش"
+msgstr ""
+
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:81
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:3623
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:81
+msgid "5ش"
+msgstr ""
+
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:93
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:3635
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:93
+msgid "آ"
+msgstr ""
+
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:141
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:158
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:225
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:242
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:309
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:326
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:393
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:410
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:477
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:494
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:561
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:578
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:645
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:662
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:729
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:746
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:813
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:830
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:897
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:914
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:981
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:998
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:1065
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:1082
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:1149
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:1166
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:1233
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:1250
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:1317
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:1334
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:1401
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:1418
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:1485
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:1502
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:1569
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:1586
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:1653
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:1670
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:1737
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:1754
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:1821
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:1838
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:1905
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:1922
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:1989
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:2006
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:2073
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:2090
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:2157
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:2174
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:2241
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:2258
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:2325
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:2342
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:2409
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:2426
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:2493
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:2510
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:2577
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:2594
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:2661
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:2678
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:2745
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:2762
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:2829
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:2846
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:2913
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:2930
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:2997
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:3014
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:3081
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:3098
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:3165
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:3182
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:3249
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:3266
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:3333
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:3350
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:3417
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:3434
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:3501
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:3518
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:3585
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:3602
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:42
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:59
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:126
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:143
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:210
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:227
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:294
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:311
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:378
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:395
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:462
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:479
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:546
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:563
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:630
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:647
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:714
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:731
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:798
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:815
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:882
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:899
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:966
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:983
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:1050
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:1067
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:1134
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:1151
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:1218
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:1235
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:1302
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:1319
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:1386
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:1403
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:1470
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:1487
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:1554
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:1571
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:1638
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:1655
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:1722
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:1739
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:1806
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:1823
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:1890
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:1907
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:1974
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:1991
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:2058
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:2075
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:2142
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:2159
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:2226
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:2243
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:2310
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:2327
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:2394
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:2411
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:2478
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:2495
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:2562
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:2579
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:2646
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:2663
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:2730
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:2747
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:2814
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:2831
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:2898
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:2915
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:2982
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:2999
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:3066
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:3083
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:3150
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:3167
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:3234
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:3251
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:3318
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:3335
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:3402
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:3419
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:3486
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:3503
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:157
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:176
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:234
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:253
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:328
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:347
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:422
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:441
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:516
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:535
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:610
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:629
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:704
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:723
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:798
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:817
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:892
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:911
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:986
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:1005
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:1080
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:1099
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:1174
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:1193
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:1268
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:1287
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:1362
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:1381
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:1456
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:1475
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:1550
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:1569
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:1644
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:1663
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:1738
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:1757
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:1832
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:1851
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:1926
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:1945
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:2020
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:2039
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:2114
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:2133
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:2208
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:2227
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:2302
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:2321
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:2396
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:2415
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:2490
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:2509
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:2584
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:2603
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:2678
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:2697
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:2772
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:2791
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:2866
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:2885
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:2960
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:2979
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:3054
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:3073
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:3148
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:3167
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:3242
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:3261
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:3336
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:3355
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:3430
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:3449
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:3524
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:3543
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:3618
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:3637
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:3712
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:3731
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:3806
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:3825
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:3900
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:3919
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:3994
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:4013
+msgid "10"
+msgstr ""
+
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:183
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:267
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:351
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:435
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:519
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:603
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:687
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:771
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:855
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:939
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:1023
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:1107
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:1191
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:1275
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:1359
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:1443
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:1527
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:1611
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:1695
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:1779
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:1863
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:1947
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:2031
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:2115
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:2199
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:2283
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:2367
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:2451
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:2535
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:2619
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:2703
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:2787
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:2871
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:2955
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:3039
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:3123
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:3207
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:3291
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:3375
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:3459
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:3543
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wleft.ui:3627
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:84
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:168
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:252
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:336
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:420
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:504
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:588
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:672
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:756
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:840
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:924
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:1008
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:1092
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:1176
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:1260
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:1344
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:1428
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:1512
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:1596
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:1680
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:1764
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:1848
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:1932
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:2016
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:2100
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:2184
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:2268
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:2352
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:2436
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:2520
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:2604
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:2688
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:2772
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:2856
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:2940
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:3024
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:3108
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:3192
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:3276
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:3360
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:3444
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wright.ui:3528
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:136
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:282
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:376
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:470
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:564
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:658
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:752
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:846
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:940
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:1034
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:1128
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:1222
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:1316
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:1410
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:1504
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:1598
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:1692
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:1786
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:1880
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:1974
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:2068
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:2162
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:2256
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:2350
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:2444
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:2538
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:2632
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:2726
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:2820
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:2914
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:3008
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:3102
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:3196
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:3290
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:3384
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:3478
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:3572
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:3666
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:3760
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:3854
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:3948
+#: /home/magicus/Documents/mehrcal-master/mehrcal/data/calendar-widget-wtop.ui:4042
+msgid "20"
+msgstr ""
+
+#: /home/magicus/Documents/mehrcal-master/mehrcal/plugins/events/config_dialog.ui:25
+msgid "Close"
+msgstr "بستن"
+
+#: /home/magicus/Documents/mehrcal-master/mehrcal/plugins/events/config_dialog.ui:52
+msgid "Events marker"
+msgstr "علامت رویداد ها"
+
+#: /home/magicus/Documents/mehrcal-master/mehrcal/plugins/events/config_dialog.ui:68
+msgid "Show events on calendar"
+msgstr "نمایش رویدادها بر روی تقویم"
