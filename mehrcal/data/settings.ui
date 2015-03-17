@@ -29,6 +29,9 @@
     <property name="width_request">350</property>
     <property name="height_request">400</property>
     <property name="can_focus">False</property>
+    <property name="modal">True</property>
+    <property name="type_hint">dialog</property>
+    <property name="skip_taskbar_hint">True</property>
     <signal name="delete-event" handler="close" swapped="no"/>
     <child>
       <object class="GtkBox" id="box_settings">
@@ -43,47 +46,170 @@
           <object class="GtkNotebook" id="notebook_settings">
             <property name="visible">True</property>
             <property name="can_focus">True</property>
-            <property name="tab_pos">left</property>
             <child>
-              <object class="GtkBox" id="lbl_settings_general">
+              <object class="GtkGrid" id="grid1">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
+                <property name="margin_left">5</property>
+                <property name="margin_right">5</property>
                 <property name="margin_top">5</property>
-                <property name="orientation">vertical</property>
+                <property name="row_spacing">5</property>
+                <property name="column_spacing">5</property>
                 <child>
-                  <object class="GtkBox" id="box1">
+                  <object class="GtkGrid" id="grid2">
+                    <property name="width_request">174</property>
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
                     <child>
-                      <object class="GtkLabel" id="label1">
+                      <object class="GtkLabel" id="label4">
+                        <property name="width_request">30</property>
+                        <property name="height_request">30</property>
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
-                        <property name="xpad">10</property>
-                        <property name="label" translatable="yes">Language:</property>
                       </object>
                       <packing>
-                        <property name="expand">False</property>
-                        <property name="fill">True</property>
-                        <property name="position">0</property>
+                        <property name="left_attach">1</property>
+                        <property name="top_attach">1</property>
                       </packing>
                     </child>
                     <child>
-                      <object class="GtkComboBoxText" id="comboboxtext1">
+                      <object class="GtkButton" id="btnWleft">
+                        <property name="label" translatable="yes">Left</property>
+                        <property name="height_request">30</property>
                         <property name="visible">True</property>
-                        <property name="can_focus">False</property>
+                        <property name="can_focus">True</property>
+                        <property name="receives_default">True</property>
+                        <property name="hexpand">True</property>
+                        <signal name="clicked" handler="on_btnWleft_clicked" swapped="no"/>
                       </object>
                       <packing>
-                        <property name="expand">True</property>
-                        <property name="fill">True</property>
-                        <property name="position">1</property>
+                        <property name="left_attach">0</property>
+                        <property name="top_attach">1</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkButton" id="btnWtop">
+                        <property name="label" translatable="yes">Top</property>
+                        <property name="height_request">30</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="receives_default">True</property>
+                        <property name="hexpand">True</property>
+                        <signal name="clicked" handler="on_btnWtop_clicked" swapped="no"/>
+                      </object>
+                      <packing>
+                        <property name="left_attach">1</property>
+                        <property name="top_attach">0</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkButton" id="btnWright">
+                        <property name="label" translatable="yes">Right</property>
+                        <property name="height_request">30</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="receives_default">True</property>
+                        <property name="hexpand">True</property>
+                        <signal name="clicked" handler="on_btnWright_clicked" swapped="no"/>
+                      </object>
+                      <packing>
+                        <property name="left_attach">2</property>
+                        <property name="top_attach">1</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkButton" id="btnRTL">
+                        <property name="label" translatable="yes">Right to left</property>
+                        <property name="width_request">50</property>
+                        <property name="height_request">30</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="receives_default">True</property>
+                        <signal name="clicked" handler="on_btnRTL_clicked" swapped="no"/>
+                      </object>
+                      <packing>
+                        <property name="left_attach">2</property>
+                        <property name="top_attach">0</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkButton" id="btnLTR">
+                        <property name="label" translatable="yes">Left to right</property>
+                        <property name="width_request">50</property>
+                        <property name="height_request">30</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="receives_default">True</property>
+                        <signal name="clicked" handler="on_btnLTR_clicked" swapped="no"/>
+                      </object>
+                      <packing>
+                        <property name="left_attach">0</property>
+                        <property name="top_attach">0</property>
                       </packing>
                     </child>
                   </object>
                   <packing>
-                    <property name="expand">False</property>
-                    <property name="fill">True</property>
-                    <property name="position">0</property>
+                    <property name="left_attach">1</property>
+                    <property name="top_attach">0</property>
                   </packing>
+                </child>
+                <child>
+                  <object class="GtkColorButton" id="btnHolidayColor">
+                    <property name="width_request">77</property>
+                    <property name="height_request">39</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="receives_default">True</property>
+                    <property name="rgba">rgb(78,154,6)</property>
+                    <signal name="color-set" handler="on_btnHolidayColor_color_set" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="left_attach">1</property>
+                    <property name="top_attach">1</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel" id="label1">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="label" translatable="yes">Layout: </property>
+                  </object>
+                  <packing>
+                    <property name="left_attach">0</property>
+                    <property name="top_attach">0</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel" id="label5">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="label" translatable="yes">Holiday's color:</property>
+                  </object>
+                  <packing>
+                    <property name="left_attach">0</property>
+                    <property name="top_attach">1</property>
+                  </packing>
+                </child>
+                <child>
+                  <placeholder/>
+                </child>
+                <child>
+                  <placeholder/>
+                </child>
+                <child>
+                  <placeholder/>
+                </child>
+                <child>
+                  <placeholder/>
+                </child>
+                <child>
+                  <placeholder/>
+                </child>
+                <child>
+                  <placeholder/>
+                </child>
+                <child>
+                  <placeholder/>
                 </child>
                 <child>
                   <placeholder/>
