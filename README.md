@@ -44,7 +44,11 @@ a simple persian calendar application for linux
 
     sudo pacman -S python-pip python-setuptools
 
-برنامه را از حالت فشرده خارج کنید و به داخل فولدر با دستور cd برید سپس دستور زیر رو اجرا کنید:
+برنامه را از حالت فشرده خارج کنید و به داخل فولدر با دستور
+
+    cd 
+
+برید و بعد دستور زیر رو اجرا کنید:
 
 	sudo python ./setup.py install 
 
