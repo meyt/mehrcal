@@ -41,7 +41,7 @@ a simple persian calendar application for linux
 
     sudo apt-get install python-pip python-setuptools
 
-در توضیع های برپایه ارچ:
+در توزیع های برپایه ارچ:
 
     sudo pacman -S python-pip python-setuptools
 
